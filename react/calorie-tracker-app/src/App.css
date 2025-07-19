@@ -1,0 +1,146 @@
+/* Style for the app background */
+.App {
+  background-color: rgb(250, 250, 250);
+  padding: 20px;
+}
+
+/* Nav Bar Styles */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(3, 55, 105);
+  color: white;
+}
+
+.nav-left {
+  font-size: 18px;
+}
+
+.nav-right {
+  font-size: 16px;
+  font-style: italic;
+}
+
+/* Form Styles */
+.tdee-form {
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="number"],
+select {
+  padding: 8px;
+  margin-top: 5px;
+  font-size: 14px;
+  width: 100%;
+  max-width: 300px;
+}
+
+select {
+  margin-top: 5px;
+}
+
+button.calculate-btn {
+  background-color: rgb(3, 55, 105);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  width: 100%;
+  max-width: 150px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button.calculate-btn:hover {
+  background-color: rgb(5, 75, 125);
+}
+
+/* Explanation Section Styles */
+.tdee-explanation {
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 14px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 8px;
+}
+
+.tdee-explanation h3 {
+  font-size: 18px;
+  color: rgb(3, 55, 105);
+}
+
+.tdee-explanation h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(3, 55, 105);
+}
+
+.intro-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.intro-text p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* Gender Selection Styles */
+.gender-selection {
+  display: flex;
+  align-items: center;
+}
+
+.gender-selection input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Adjustments for form input and dropdowns */
+input[type="number"] {
+  width: 100%;
+  max-width: 300px;
+}
+
+select {
+  width: auto;
+  max-width: 280px; /* Adjusted width to fit longer text */
+  font-size: 14px;
+  padding: 5px;
+  margin-left: 5px;
+  margin-top: 5px; /* Adding spacing */
+}
+
+/* Space adjustments for input fields */
+input[type="number"],
+select {
+  margin-bottom: 5px;
+}
+
+/* Small styling for intro text */
+.intro-text p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+strong {
+  font-weight: bold;
+}

@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensure body spans the full viewport height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    background-color: rgb(129, 129, 148); /* Optional: background for visibility */
+}
+
+.container {
+    background-color: darkblue;
+    height: 98vh;
+    width: 99vw; /* Set a fixed or percentage width */
+    border-radius: 8px; /* Optional: for rounded corners */
+    display: flex;
+    flex-direction: row; /* Items side by side */
+    justify-content: flex-start; /* Align items horizontally at the start */
+    padding: 20px; /* Padding for the container */
+    position: relative; /* Ensure correct positioning for the sticky sidebar */
+}
+
+.sidebar {
+    height: 90vh;
+    width: 250px;
+    background-color: aliceblue;
+    border-radius: 8px; /* Optional: for rounded corners */
+    position: sticky;
+    top: 20px; /* Adjust top positioning to account for padding */
+    align-self: center; /* Vertically center the sidebar */
+    padding: 10px; /* Padding for the sidebar */
+}
+
+.nav {
+    height: 50px;
+    width: 600px; /* Make nav span the full width */
+    background-color: aliceblue;
+    margin-bottom: 20px; /* Space below the nav */
+    margin-left: 50px;
+    margin-top: 19px;
+    border-radius: 8px; /
+}

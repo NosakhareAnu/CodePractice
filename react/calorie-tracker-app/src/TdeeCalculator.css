@@ -1,0 +1,167 @@
+/* General Layout */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+h2, h3 {
+  color: rgb(3, 55, 105); /* Set color for "How TDEE is Calculated" */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+/* Mini Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  font-size: 1.1em;
+}
+
+nav .left, nav .right {
+  display: inline-block;
+}
+
+nav .right {
+  text-align: right;
+}
+
+/* Main Container */
+.tdee-calculator {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+form {
+  display: grid;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.1em;
+  font-weight: bold; /* Make the labels bold */
+}
+
+input[type="number"], select, input[type="radio"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+  width: auto; /* Smaller width for radio buttons */
+}
+
+button {
+  background-color: rgb(3, 55, 105); /* Darker blue */
+  color: white;
+  padding: 8px 16px; /* Smaller button size */
+  font-size: 1.1em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: rgb(2, 44, 82); /* Darker blue on hover */
+}
+
+/* Results Styling */
+.results {
+  background-color: #ecf0f1;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.results p {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+.results strong {
+  color: #2980b9;
+}
+
+/* Description Text Styling */
+p {
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 5px; /* Make the dropdown smaller */
+  font-size: 1em;
+  max-width: 150px; /* Reduce width for number fields */
+}
+
+input[type="number"] {
+  max-width: 150px; /* Reduce width for number fields */
+}
+
+input[type="radio"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+form label {
+  margin-bottom: 3px; /* Add 3px margin for better spacing */
+}
+
+/* Heading for Learn How Many Calories Text */
+h2 {
+  color: rgb(3, 55, 105); /* Set color for the main header */
+  font-size: 1.4em; /* Smaller size for the header */
+  text-align: center;
+}
+
+/* Spacing after form */
+.description-text {
+  font-size: 0.9em;
+  color: #333;
+  margin-top: 30px;
+  line-height: 1.5;
+}
+
+.description-text h3 {
+  color: rgb(3, 55, 105); /* Color for How TDEE is Calculated */
+}
+
+/* Media Query for responsiveness */
+@media screen and (max-width: 600px) {
+  .tdee-calculator {
+    padding: 15px;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .description-text {
+    font-size: 0.8em; /* Adjust description font size */
+  }
+}
